@@ -23,15 +23,8 @@ body{
 }
 
 #botaocursos:hover{
-    height: 400px;
-    width: 400px;
-    margin-left: 5%;
-    margin-top: 1%;
-    border-radius: 5%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
+    transform: scale(1.1);
+    transition: 200ms linear;
 }
 
 h1{

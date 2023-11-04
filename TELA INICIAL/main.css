@@ -72,7 +72,7 @@ body {
     font-size: 30px;
     font-style:italic;
     border: 0px;
-
+    transition: 100ms linear;
 
 }
 
