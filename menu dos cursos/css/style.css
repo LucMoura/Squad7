@@ -50,3 +50,38 @@ h1{
     border-radius: 10px;
     margin-bottom: 1%;
 }
+
+#user{
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    border: 0px;
+    background-size: contain;
+    position: absolute;
+    bottom: 80%;
+    background-color: white;
+    left: 1%;
+}
+
+#user:hover{
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
+#menuadmin{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 90%;
+    bottom: 65%;
+}
+
+#menuadmin:hover{
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
