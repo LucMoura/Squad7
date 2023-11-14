@@ -1,50 +1,75 @@
 * {
     margin: 0px;
     padding: 0px;
-
 }
-body{
-    background-color: #eae6df;
-    overflow-x: hidden;
-
-   
+body {
+    background-color: #b81824;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    
+  
 }
-#div_superior{
-    background-color: #eae6df;
+main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    width: 100vw;
+    padding: 100px;
 }
-#div_inferior{
-    background-color: #e22e2e;
+.quadroLogin  {
+    background-color: white;
+    width: 25vw;
+    height: 60vh;
+    border-radius: 70px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 50vh;
-    width: 100vw;
+    justify-content: center;
+    align-items: center;
 }
-#retangulo{
-    background-color: #d9d9d9;
+.quadroLogin:hover{
+    border: solid 1px rgb(136, 4, 4);
+}
+.logomarca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
-    margin: 10px;
-    height: 35vh;
-    width: 40vw;
+   
 }
-#comentarios{
-    margin: 10px;
-    height: 40vh;
-    width: 35vw;
 
-}
-#comentarios li {
-    background-color: #d9d9d9;
-    list-style: none;
-}
-#comentario{
-    background-color: #d9d9d9;
+.input {
+    background-color: rgb(189, 186, 186);
+    border: none;
     border-radius: 5px;
-    height: 25px;
-    width: 35vw;
+    height: 3vh;
+    width: 20vw;
+}
+
+
+
+button {
+    background-color: #b81824;
+    width: 5vw;
+    height: 3vh;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+button:hover{
+    background-color: white;
+    color: #b81824;
+    transition: 100ms linear;
+}
+#botao {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.centralizar {
+  display: flex;
+  justify-content: center;
+}
+a {
+    text-decoration: none;
+    font-size: small;
 }
