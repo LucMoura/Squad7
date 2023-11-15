@@ -11,9 +11,9 @@ body{
 }
 
 #botaocursos{
-    height: 350px;
-    width: 350px;
-    margin-left: 5%;
+    height: 35vh;
+    width: 40vh;
+    margin-left: 5vh;
     margin-top: 1%;
     border-radius: 5%;
     background-repeat: no-repeat;
@@ -25,6 +25,7 @@ body{
 #botaocursos:hover{
     transform: scale(1.1);
     transition: 200ms linear;
+    cursor: pointer;
 }
 
 h1{
@@ -49,6 +50,7 @@ h1{
     height: 50px;
     border-radius: 10px;
     margin-bottom: 1%;
+    cursor: pointer;
 }
 
 #user{
@@ -66,22 +68,109 @@ h1{
 #user:hover{
     transform: scale(1.1);
     transition: 200ms linear;
+    cursor: pointer;
 }
 
-#menuadmin{
-    height: 100px;
-    width: 100px;
-    background-color: rgba(255, 255, 255, 0);
-    border: 0px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    left: 90%;
-    bottom: 65%;
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
-#menuadmin:hover{
-    transform: scale(1.1);
-    transition: 200ms linear;
+a:hover {
+    opacity: 0.7;
 }
 
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #b81824;
+    height: 9vh ;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 999px){
+    body{
+        overflow-x: hidden;
+    }
+    
+    .nav-list{
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #b81824;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+}
+.nav-list.activate {
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+    from{
+        opacity:0;
+        transform: translateX(0);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+.mobile-menu.activate .line1{
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.activate .line2{
+    opacity: 0;
+}
+
+.mobile-menu.activate .line3{
+    transform: rotate(45deg) translate(-5px, -7px);
+}

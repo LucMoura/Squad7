@@ -47,4 +47,8 @@ body{
     border-radius: 5px;
     height: 25px;
     width: 35vw;
+    padding: 5px;
+    margin-top: 2%;
+    text-align: left;
+    font-size: large;
 }

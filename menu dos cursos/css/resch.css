@@ -1,71 +1,86 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
+body{
+    background-color: white;
 }
 
-body {
-    background-color: #fdfdfd;
+#menu{
+    background-color: #b81824;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    border-radius: 15px;    
+}
+
+#botaocursos{
+    height: 350px;
+    width: 350px;
+    margin-left: 5%;
+    margin-top: 1%;
+    border-radius: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
 }
-h1 {
-    color: #000;
-    font-size: xx-large;
-    font: Garamond;
+
+#botaocursos:hover{
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
+h1{
     text-align: center;
-    margin-left: 20px;
-    margin-top: -50px;
+    margin-top: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1%;
 }
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+
+#logo{
+    margin: auto;
+    display: block;
+    height: 200px;
+    width: 200px;
 }
-.Logo {
+
+#barrapesquisa{
+    margin: auto;
+    display: block;
+    background-color: rgb(238, 236, 236);
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+
+#user{
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    border: 0px;
+    background-size: contain;
     position: absolute;
-    top: 0;
-    right: 0;
-}
-.container {
-    background: linear-gradient(to bottom, #ff0000, #ff0000a2);
-    position: relative;
-    display: flex;
-    text-align: center;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    margin-left: 1px;
-    margin-top: -19px;
-    border-radius: 1px;
+    bottom: 80%;
+    background-color: white;
+    left: 1%;
 }
 
-
-.quadrado {
-    width: 1200px ;
-    height: 680px;
-    background-color: #e22e2e;
-    margin-top: 120px;
-    margin-left: 365px;
-    border-radius: 20px;
+#user:hover{
+    transform: scale(1.1);
+    transition: 200ms linear;
 }
 
-.box1 {
-    color: #f80000;
-    margin-top: -500px;
-    margin-left: 420px;
+#menuadmin{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 90%;
+    bottom: 65%;
 }
 
-.box2 {
-    color: #f80000;
-    margin-top: -204px;
-    margin-left: 810px;
-}
-
-.box3 {
-    color: #f80000;
-    margin-top: -204px;
-    margin-left: 1210px;
+#menuadmin:hover{
+    transform: scale(1.1);
+    transition: 200ms linear;
 }
