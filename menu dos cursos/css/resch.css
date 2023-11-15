@@ -11,9 +11,9 @@ body{
 }
 
 #botaocursos{
-    height: 350px;
-    width: 350px;
-    margin-left: 5%;
+    height: 35vh;
+    width: 40vh;
+    margin-left: 5vh;
     margin-top: 1%;
     border-radius: 5%;
     background-repeat: no-repeat;
