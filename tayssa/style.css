@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #b81824;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic; 
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.quadroLogin  {
+    background-color: white;
+    width: 25vw;
+    height: 60vh;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quadroLogin:hover{
+    border: solid 1px rgb(136, 4, 4);
+}
+.logomarca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+   
+}
+
+.input {
+    background-color: rgb(189, 186, 186);
+    border: none;
+    border-radius: 5px;
+    height: 3vh;
+    width: 20vw;
+}
+
+
+
+button {
+    background-color: #b81824;
+    width: 5vw;
+    height: 3vh;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+button:hover{
+    background-color: white;
+    color: #b81824;
+    transition: 100ms linear;
+}
+#botao {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.centralizar {
+  display: flex;
+  justify-content: center;
+}
+a {
+    text-decoration: none;
+    font-size: small;
+}
