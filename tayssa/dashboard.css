@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #b81824;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.icone {
+    height: 5vh;
+    border: solid 0.5px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#moldeInput {
+   display: flex;
+    align-items: center;
+}
+input {
+    border: none;
+    padding-left: 15px ;
+    border: solid black 1px;
+    border-radius: 15px;
+    height: 3vh;
+    width: 35vw;
+}
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    margin: 40px 10px 10px 10px;
+}
+#menu a{
+    margin: 10px; 
+}
+#menu a:hover{
+    transform: scale(1.1);
+    transition: 200ms linear;
+    cursor: pointer;
+}
+.capaCursos{
+    height: 25vh;
+    border: solid black 1px;
+    border-radius: 20px;
+}
