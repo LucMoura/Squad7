@@ -23,7 +23,7 @@ iframe{
     width: 70vh;
     position: absolute;
     display: block;
-    top: 15%;
+    top: 11.5vh;
     border-radius: 10px;
 }
 
@@ -32,7 +32,7 @@ iframe{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 50vh;
+    height: 75vh;
     width: 100vw;
 }
 #retangulo{
@@ -43,8 +43,8 @@ iframe{
     width: 40vw;
 }
 #comentarios{
-    height: 4.5vh;
-    width: 3.5vh;
+    height: 45vh;
+    width: 35vw;
 
 }
 #comentarios li {
@@ -58,7 +58,7 @@ iframe{
     width: 70vh;
     padding: 5px;
     text-align: left;
-    font-size: medium;
+    font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -117,15 +117,15 @@ div img{
 
 .pdf{
     position: absolute;
-    left: 2.5vh;
+    left: 17vh;
 }
 .txt{
     position: absolute;
-    left: 19vh;
+    left: 17vh;
 }
 .folder{
     position: absolute;
-    left: 21vh;
+    left: 17vh;
 }
 
 #concluido{
@@ -167,6 +167,21 @@ h3:hover{
 }
 
 #txtfile{
-    font-size: smaller;
-    height: 3px;
+    font-size: small;
+    height: 10px;
+}
+
+#nomearquivo{
+    font-size: larger;
+    padding-top:5%;
+    position: relative;
+    left: 10%;
+    top: -14%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#extra{
+    position: absolute;
+    left: 35%;
+    top: 105;
 }
