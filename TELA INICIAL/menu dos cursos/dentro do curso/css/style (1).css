@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: #eae6df;
+    overflow-x: hidden;
+
+   
+}
+#div_superior{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+}
+
+iframe{
+    height: 35vh;
+    width: 70vh;
+    position: absolute;
+    display: block;
+    top: 15%;
+    border-radius: 10px;
+}
+
+#div_inferior{
+    background-color: #b81824;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 50vh;
+    width: 100vw;
+}
+#retangulo{
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    margin-top: 5vh;
+    height: 35vh;
+    width: 40vw;
+}
+#comentarios{
+    height: 4.5vh;
+    width: 3.5vh;
+
+}
+#comentarios li {
+    background-color: #d9d9d9;
+    list-style: none;
+}
+#comentario{
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    height: 3vh;
+    width: 70vh;
+    padding: 5px;
+    text-align: left;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 9%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #b81824;
+    color: white;
+}
+
+#logotop{
+    height: 7vh;
+    width: 21vh;
+    background-color: #b81824;
+}
+
+#logotop:hover{
+    cursor: pointer;
+}
+
+#cursos{
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    position: absolute;
+    left: 25vh;
+    top: 3vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div h2{
+    text-align: center;
+    color: rgb(44, 40, 40);
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+div h2:hover{
+    cursor:pointer;
+}
+
+div img{
+    height: 3vh;
+    width: 3vh;
+}
+
+#titulo{
+    text-transform: uppercase;
+    color: rgb(19, 16, 16);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pdf{
+    position: absolute;
+    left: 2.5vh;
+}
+.txt{
+    position: absolute;
+    left: 19vh;
+}
+.folder{
+    position: absolute;
+    left: 21vh;
+}
+
+#concluido{
+    background-color: black;
+    position: absolute;
+    right: 30vh;
+    color: white;
+}
+
+#usertop{
+    position: absolute;
+    right: 5vh;
+    top: 2vh;
+    height: 5vh;
+}
+
+#usertop:hover{
+    cursor: pointer;
+}
+
+#usercoment{
+    position: relative;
+    right: 5vh;
+    top: 4vh;
+    height: 4.5vh;
+    width: 4.5vh;
+}
+
+h3{
+    font-size: xx-large;
+    text-align: right;
+    position: relative;
+    top: 4.7vh;
+    right: 1vh;
+}
+
+h3:hover{
+    cursor: pointer;
+}
+
+#txtfile{
+    font-size: smaller;
+    height: 3px;
+}

@@ -44,3 +44,7 @@ const mobileNavbar = new MobileNavbar(
 );
 
 mobileNavbar.init();
+
+function cursogo(){
+    location.href = "dentro do curso/index.html"
+}
